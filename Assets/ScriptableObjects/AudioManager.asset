@@ -11,7 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb301932b94ea8241a1993240288e2b7, type: 3}
   m_Name: AudioManager
   m_EditorClassIdentifier: 
-  maximumPlayerHealth: 0
-  startingLives: 0
   audioClip: {fileID: 0}
   audioSource: {fileID: 0}
