@@ -52,8 +52,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1763645940485672}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.79, y: 0, z: 2.81}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0.577, y: 0.016505, z: -0.07}
+  m_LocalScale: {x: 0.21932235, y: 0.21932235, z: 0.21932235}
   m_Children:
   - {fileID: 4626645204273712}
   m_Father: {fileID: 0}
@@ -137,6 +137,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   renderers: []
-  audioClip: {fileID: 0}
-  seqState: {fileID: 0}
+  seqState: {fileID: 11400000, guid: 7b1cf122740b4a04883bc93139f54eae, type: 2}
   audioManager: {fileID: 0}

@@ -561,7 +561,8 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 65090194767859922, guid: 14f6a6e43321a9645bb57d84e40b34b8, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 14f6a6e43321a9645bb57d84e40b34b8, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1101771713 stripped
@@ -833,7 +834,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4601556518673250, guid: 51f67b15b5946b84b94569680e8179da, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.016505
       objectReference: {fileID: 0}
     - target: {fileID: 4601556518673250, guid: 51f67b15b5946b84b94569680e8179da, type: 2}
       propertyPath: m_LocalPosition.z
@@ -859,12 +860,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114790779248183764, guid: 51f67b15b5946b84b94569680e8179da,
-        type: 2}
-      propertyPath: seqState
-      value: 
-      objectReference: {fileID: 11400000, guid: 7b1cf122740b4a04883bc93139f54eae,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51f67b15b5946b84b94569680e8179da, type: 2}
   m_IsPrefabParent: 0

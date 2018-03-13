@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameController : MonoBehaviour {
-    PlayerData pd;
+    public PlayerData pd;
+
+    
     // Use this for initialization
     void Start () {
         pd = PlayerData.Instance;
