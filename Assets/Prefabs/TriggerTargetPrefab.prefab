@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 65970008498440128}
   - component: {fileID: 114790779248183764}
   m_Layer: 0
-  m_Name: TargetPrefab
+  m_Name: TriggerTargetPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 4660412927644837186, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -136,3 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0907ad576812b594aae3fb3b01d6a63b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  renderers: []
+  audioClip: {fileID: 0}
+  seqState: {fileID: 0}
+  audioManager: {fileID: 0}

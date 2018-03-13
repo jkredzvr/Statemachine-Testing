@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TargetInteraction : MonoBehaviour {
+public class ProximityInteraction : MonoBehaviour, ITargetInteraction {
     private BoxCollider boxCol;
     public Renderer[] renderers;
-    public AudioClip audioClip;
     public SequenceState seqState;
     public AudioManagerSingleton audioManager;
 
@@ -13,37 +12,33 @@ public class TargetInteraction : MonoBehaviour {
 	void Start () {
         boxCol = GetComponent<BoxCollider>();
         renderers = GetComponentsInChildren<Renderer>();
-
         audioManager = AudioManagerSingleton.Instance;
-        
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 
     private void OnTriggerEnter(Collider other) {
         Debug.Log("Triggered");
-        foreach (Renderer renderer in renderers) {
-            renderer.material.color = Color.green;
-        }
-
-        MessageGameController();
-        PlayAudio();
+        Success();
     }
 
     public void PlayAudio() {
-
         //audioManager.SetClip(seqState.successClip);
         Debug.Log("playing audio");
         audioManager.PlayClipAt(seqState.successClip, this.transform.position);
+    }
 
+    public void RenderSuccessColor() {
+        foreach (Renderer renderer in renderers) {
+            renderer.material.color = Color.green;
+        }
     }
 
     public void MessageGameController() {
         Debug.Log("Tell GM trigger entered");
     }
 
-
+    public void Success() {
+        MessageGameController();
+        RenderSuccessColor();
+        PlayAudio();
+    }
 }
