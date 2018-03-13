@@ -194,6 +194,11 @@ Prefab:
       value: 
       objectReference: {fileID: 11400000, guid: ea4acccd5dc00ef438673d1cc32d0b1b,
         type: 2}
+    - target: {fileID: 114790779248183764, guid: 51f67b15b5946b84b94569680e8179da,
+        type: 2}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51f67b15b5946b84b94569680e8179da, type: 2}
   m_IsPrefabParent: 0
@@ -325,6 +330,11 @@ Prefab:
       value: 
       objectReference: {fileID: 11400000, guid: ce19f0c22c1167d4081d3c6f4153d801,
         type: 2}
+    - target: {fileID: 114790779248183764, guid: 51f67b15b5946b84b94569680e8179da,
+        type: 2}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51f67b15b5946b84b94569680e8179da, type: 2}
   m_IsPrefabParent: 0
@@ -420,6 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e4b1e81e3c164b45a4a2f5dfde6f8fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pd: {fileID: 0}
 --- !u!1 &934584756
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +983,11 @@ Prefab:
       value: 
       objectReference: {fileID: 11400000, guid: ce19f0c22c1167d4081d3c6f4153d801,
         type: 2}
+    - target: {fileID: 114790779248183764, guid: 51f67b15b5946b84b94569680e8179da,
+        type: 2}
+      propertyPath: audioManager
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 51f67b15b5946b84b94569680e8179da, type: 2}
   m_IsPrefabParent: 0
